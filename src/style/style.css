@@ -3,7 +3,6 @@
 @import "./speakers.css";
 @import "./message.css";
 @import "./normalize.css";
-@import "../vendor/fonts.css";
 
 body {
   margin: 0 auto;
