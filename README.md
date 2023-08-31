@@ -1,6 +1,6 @@
 # Вёрстка
 # Деплой на Vervel
-https://tyny.vercel.app/
+[Vercel](https://todo-psi-seven.vercel.app/).
 
 
 ## Команды
