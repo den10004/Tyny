@@ -1,6 +1,6 @@
 # Вёрстка
 # Деплой на Vervel
-[Vercel](https://todo-psi-seven.vercel.app/).
+[Ссылка](https://todo-psi-seven.vercel.app/).
 
 
 ## Команды
