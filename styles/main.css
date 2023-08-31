@@ -1,0 +1,271 @@
+.mains {
+  background-color: #0a2756;
+  padding: 10px 10px 80px 160px;
+}
+
+@media screen and (max-width: 768px) {
+  .mains {
+    padding: 10px 10px 30px 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .mains {
+    padding: 10px 10px 0px 10px;
+  }
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__rightt {
+  display: flex;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 320px) {
+  .main__rightt {
+    margin-top: 0px;
+  }
+}
+
+.main__right {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #ffffff;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+}
+
+@media screen and (max-width: 1050px) {
+  .main__right {
+    padding-top: 35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main__right {
+    flex-direction: column;
+  }
+}
+
+.right__text > h3 {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.right__text > h2 {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1150px) {
+  .right__text > h3 {
+    font-size: 50px;
+  }
+  .right__text > h2 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .right__text > h3 {
+    font-size: 40px;
+  }
+  .right__text > h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+.left__text {
+  font-weight: 400;
+  font-size: 35px;
+  color: #ffb32c;
+  writing-mode: vertical-rl;
+  text-align: end;
+  transform: scale(-1.06);
+  margin-right: 25px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .left__text {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+
+.registration__button {
+  font-size: 16px;
+  line-height: 19.6px;
+  width: 423px;
+  height: 71px;
+}
+
+@media screen and (max-width: 950px) {
+  .registration__button {
+    width: 279px;
+    height: 71px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .registration__button {
+    width: 423px;
+    height: 71px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .registration__button {
+    width: 279px;
+  }
+}
+
+.right__logos {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 320px) {
+  .right__logos {
+    margin-top: 5px;
+  }
+  .right__logos > img {
+    width: 20%;
+  }
+}
+
+.right__logos > img:nth-last-child(n + 2) {
+  margin-right: 10px;
+}
+
+.main__left > img {
+  width: 397px;
+}
+
+@media screen and (max-width: 1100px) {
+  .main__left > img {
+    width: 237px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .main__left {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__left {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main__left {
+    margin-top: 60px;
+    margin-left: 25px;
+  }
+}
+
+.main__bottom {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #ffffff;
+  width: 521px;
+  margin-top: 30px;
+  padding-left: 60px;
+}
+
+@media screen and (max-width: 950px) {
+  .main__bottom {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__bottom {
+    padding-left: 45px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main__bottom {
+    padding-left: 0px;
+    margin-top: 25px;
+    width: 95%;
+    margin-bottom: 155px;
+  }
+}
+
+.bottom__paragraph {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  width: 95%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .bottom__paragraph {
+    margin-top: 20px;
+  }
+}
+
+.bottom__paragraph2 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25.2px;
+  width: 95%;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 425px) {
+  .bottom__paragraph2 {
+    margin-top: 37px;
+    width: 100%;
+  }
+}
+
+.down__button {
+  margin-top: 45px;
+  margin-left: 360px;
+}
+
+@media screen and (max-width: 768px) {
+  .down__button {
+    margin-top: 68px;
+    margin-left: 260px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .down__button {
+    display: none;
+  }
+}
+
+.mb-btn {
+  margin: 60px 0px 0px 60px;
+}
+
+@media screen and (max-width: 950px) {
+  .mb-btn {
+    margin: 55px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mb-btn {
+    margin: 25px 0px 0px 45px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .mb-btn {
+    margin: 35px 0px 0px 0px;
+  }
+}

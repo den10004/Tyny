@@ -1,0 +1,86 @@
+@import "./header.css";
+@import "./main.css";
+@import "./speakers.css";
+@import "./message.css";
+@import "./normalize.css";
+@import "../vendor/fonts.css";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  background: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1420px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .wrapper {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 94%;
+  }
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.button-color {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #ffffff;
+  letter-spacing: 10px;
+  background-color: #007dfe;
+}
+
+@media screen and (max-width: 1000px) {
+  .button-color {
+    letter-spacing: 5px;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input:focus {
+  outline: none !important;
+  border: 3px solid rgba(251, 85, 85, 1);
+}
